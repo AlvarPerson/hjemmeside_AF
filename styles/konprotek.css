@@ -4,3 +4,101 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+
+body {
+    background-image: linear-gradient(to right, black, indigo, purple);
+    height: 1000vh;
+
+}
+
+.header {
+    background-color: black;
+    width: 1000px;
+    height: 50px;
+    top: 0px;
+    position: fixed;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.back1 {
+    position: relative;
+    top: 10px;
+    left: 1%;
+}
+
+.block1 {
+    background-color: whitesmoke;
+    position: absolute;
+    width: 55%;
+    height: 60%;
+    top: 11%;
+    border-radius: 20px;
+}
+
+.block2 {
+    background-color: whitesmoke;
+    position: absolute;
+    width: 55%;
+    height: 60%;
+    top: 11%;
+    border-radius: 20px;
+}
+
+.block3 {
+    background-color: whitesmoke;
+    position: absolute;
+    width: 55%;
+    height: 60%;
+    top: 11%;
+    border-radius: 20px;
+}
+
+.txt1 {
+    color: gold;
+    position: relative;
+    left: 1%;
+    top: 1%;
+    text-shadow: 2px 2px black;
+    letter-spacing: 3px;
+}
+
+.txt1a {
+    position: relative;
+    left: 2%;
+    top: 3%;
+}
+
+.txt2 {
+    color: gold;
+    position: relative;
+    left: 1%;
+    top: 1%;
+    text-shadow: 2px 2px black;
+    letter-spacing: 3px;
+}
+
+.txt2a {
+    position: relative;
+    left: 2%;
+    top: 3%;
+}
+
+.txt3 {
+    color: gold;
+    position: relative;
+    left: 1%;
+    top: 1%;
+    text-shadow: 2px 2px black;
+    letter-spacing: 3px;
+
+}
+
+.txt3a {
+    position: relative;
+    left: 2%;
+    top: 3%;
+}

@@ -19,7 +19,6 @@ body {
 
 }
 
-
 .abc {
     gap: 30px;
     width: fit-content;
@@ -95,4 +94,26 @@ main {
     top: 1%;
     width: 50vh;
     height: 40vh;
+}
+
+a {
+    color: darkblue;
+    letter-spacing: 2px;
+}
+
+.me a {
+    color: gold;
+    background-color: black;
+}
+
+.me {
+    position: relative;
+    left: 5px;
+    top: 5px;
+    text-decoration: underline 2px;
+}
+
+h1 {
+    position: relative;
+    left: 10px;
 }
